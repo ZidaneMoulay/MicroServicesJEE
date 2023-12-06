@@ -31,4 +31,3 @@ export class ProductService {
     return  this.http.get<Array<Product>>(`http://localhost:8089/products?name_like=${keyword}`);
   }
 }
-
